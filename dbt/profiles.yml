@@ -1,0 +1,8 @@
+hospitality:
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/data/bookings.duckdb
+      schema: analytics
+      threads: 4
+  target: dev
